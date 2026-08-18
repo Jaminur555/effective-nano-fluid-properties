@@ -1,0 +1,24 @@
+[build-system]
+requires = ["setuptools>=77"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "effective-nano-fluid-properties"
+version = "0.1.0"
+description = "Effective thermophysical properties of water-based mono and hybrid nanofluids"
+readme = "README.md"
+license = "MIT"
+license-files = ["LICENCE"]
+authors = [{ name = "Jaminur Rahman Khalid" }]
+requires-python = ">=3.8"
+keywords = ["nanofluid", "thermal-conductivity", "viscosity", "maxwell", "brinkman"]
+classifiers = [
+    "Intended Audience :: Science/Research",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python :: 3",
+    "Topic :: Scientific/Engineering :: Physics",
+]
+
+[tool.setuptools]
+packages = ["effective_property"]

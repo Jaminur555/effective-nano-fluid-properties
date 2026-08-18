@@ -25,7 +25,7 @@ alongside the water base-fluid table keyed by temperature.
 ## Usage
 
 ```bash
-python solver.py
+python effective_property/solver.py
 ```
 
 1. Choose **M** (mono) or **D** (hybrid/di) mode.
@@ -37,10 +37,12 @@ python solver.py
 
 ## Files
 
-| File                     | Purpose                       |
-|--------------------------|-------------------------------|
-| `solver.py`              | Entry point                   |
-| `print_table.py`         | User input and results table  |
-| `regulation.py`          | Input validation helpers      |
-| `effective_properties.py`| Effective-property models     |
-| `data.py`                | Material-property database    |
+| File                                   | Purpose                       |
+|----------------------------------------|-------------------------------|
+| `effective_property/solver.py`         | Entry point                   |
+| `effective_property/print_table.py`    | User input and results table  |
+| `effective_property/regulation.py`     | Input validation helpers      |
+| `effective_property/effective_properties.py` | Effective-property models |
+| `effective_property/data.py`           | Material-property database    |
+| `docs/reference.md`                    | Sources for models and data   |
+| `LICENCE`                              | MIT licence                   |
