@@ -2,7 +2,7 @@
 
 A small Python calculator for the effective thermophysical properties of
 water-based **mono** (single-particle) and **hybrid** (two-particle)
-nanofluids, evaluated at every tabulated base-fluid temperature (20-80 degC).
+nanofluids, evaluated at every tabulated base-fluid temperature (20-80 &deg;C).
 
 ## Models
 
@@ -19,7 +19,7 @@ then particle 2 in that mixture). All inputs and outputs are in SI units.
 
 ## Supported nanoparticles
 
-Al2O3, CuO, h-BN, TiO2, SiO2, Fe3O4 -- properties are defined in `data.py`,
+Al<sub>2</sub>O<sub>3</sub>, CuO, h-BN, TiO<sub>2</sub>, SiO<sub>2</sub>, Fe<sub>3</sub>O<sub>4</sub> -- properties are defined in `data.py`,
 alongside the water base-fluid table keyed by temperature.
 
 ## Usage
